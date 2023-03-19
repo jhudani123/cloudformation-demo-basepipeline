@@ -1,0 +1,1 @@
+aws cloudformation create-stack --stack-name basic-pipeline --template-body file://basic-pipeline.yml --region 'us-east-1' --parameters ParameterKey=PipelineName,ParameterValue=PipelineNamedemo ParameterKey=S3Bucket,ParameterValue=cfntemplatedemo19032023 ParameterKey=Email,ParameterValue=devops.mar2.2019@gmail.com --capabilities CAPABILITY_NAMED_IAM
